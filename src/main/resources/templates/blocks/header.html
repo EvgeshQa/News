@@ -1,0 +1,17 @@
+<div th:fragment="header" xmlns:th="http://www.w3.org/1999/xhtml">
+
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+
+
+        <nav class="my-2 my-md-auto mr-md-3">
+            <a class="p-2  text-dark" href="/">Главная</a>
+            <a class="p-2  text-dark" href="/blog">Новости</a>
+            <a class="p-2  text-dark" href="/about">О нас</a>
+        </nav>
+        <form th:action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out" class="btn btn-warning"/>
+        </form>
+
+    </div>
+
+</div>
