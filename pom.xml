@@ -11,8 +11,8 @@
 	<groupId>com.evgesha</groupId>
 	<artifactId>evgesha</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
-	<description>Demo project for Spring Boot</description>
+
+	<description>My project</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
