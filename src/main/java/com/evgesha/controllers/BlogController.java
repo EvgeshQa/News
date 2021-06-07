@@ -4,6 +4,7 @@ package com.evgesha.controllers;
 import com.evgesha.models.Post;
 import com.evgesha.models.User;
 import com.evgesha.repo.PostRepository;
+import com.evgesha.repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
